@@ -1,0 +1,9 @@
+{
+	"name": "FactorioEMC",
+	"version": "0.0.1",
+	"title": "Factorio EMC",
+	"author": "Zombieland4942",	
+	"factorio_version": "1.1",
+	"description": "Provides machines, items and fluids to bring EMC from Minecraft into Factorio.",
+	"dependencies": [ ]
+}
