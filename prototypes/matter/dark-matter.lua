@@ -7,7 +7,10 @@ data:extend({
         name = "dark-matter",
         icon = "__FactorioEMC__/graphics/icons/dark-matter.png", icon_size = 64, icon_mipmaps = 4,
         fuel_value = "200GJ",
-        fuel_category = "matter-fuel",
+        fuel_acceleration_multiplier = 3,
+        fuel_top_speed_multiplier = 1.5,
+        allow_decomposition = true,
+        fuel_category = "chemical",
         subgroup = "emc-fuel",
         order = "d[2[1]]",
         stack_size = 10
@@ -17,7 +20,7 @@ data:extend({
         name = "dark-matter",
         energy_required = 15,
         category = "advanced-crafting",
-        enabled = true,
+        enabled = false,
         ingredients =
         {
             { "aeternalis-fuel", 8 }

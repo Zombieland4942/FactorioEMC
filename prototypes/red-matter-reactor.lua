@@ -11,7 +11,25 @@ data:extend(
 		order = "i[red-matter-reactor]",
 		place_result = "red-matter-reactor",
 		stack_size = 10
-    },
+	},	
+	{
+		type = "recipe",
+        name = "red-matter-reactor",
+        icon = "__FactorioEMC__/graphics/icons/red-matter-reactor.png", icon_size = 128,
+        energy_required = 20,
+		enabled = false,		
+    	requester_paste_multiplier = 1,
+        ingredients =
+        {
+			{ "nuclear-reactor", 4 },
+			{ "steam-turbine", 20 },
+			{ "red-matter", 20 },
+        },
+        results =
+        {
+            { type="item", name="red-matter-reactor", amount=1}
+        }
+	},
 	{
 		type = "burner-generator",
 		name = "red-matter-reactor",

@@ -14,6 +14,8 @@ require("prototypes.klein-star")
 
 require("prototypes.red-matter-reactor")
 
+require("prototypes.technology")
+
 data:extend({
     {
         type = "recipe-category",

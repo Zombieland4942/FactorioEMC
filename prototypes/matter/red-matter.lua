@@ -17,7 +17,7 @@ data:extend({
         name = "red-matter",
         energy_required = 20,
         category = "advanced-crafting",
-        enabled = true,
+        enabled = false,
         ingredients =
         {
             { "dark-matter", 8 }

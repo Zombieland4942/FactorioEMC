@@ -11,7 +11,25 @@ data:extend(
 		order = "i[emc-consumer]",
 		place_result = "emc-consumer",
 		stack_size = 10
-    },
+	},
+	{
+		type = "recipe",
+        name = "emc-consumer",
+        icon = "__FactorioEMC__/graphics/icons/emc-consumer.png", icon_size = 128,
+        energy_required = 10,
+        enabled = true,
+        ingredients =
+        {
+			{ "assembling-machine-2", 5 },
+			{ "steel-plate", 5 },
+			{ "electronic-circuit", 10 },
+			{ "iron-gear-wheel", 10 },
+        },
+        results =
+        {
+            { type="item", name="emc-consumer", amount=1}
+        }
+	},
 	{
 		type = "assembling-machine",
 		name = "emc-consumer",		
