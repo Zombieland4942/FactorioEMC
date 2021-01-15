@@ -1,6 +1,6 @@
 FactorioEMC = {}
 
-local itemMultiplier = 5
+local itemMultiplier = settings.startup["emc-multiplier"].value
 
 function FactorioEMC.addEMCItem(args)
     -- TODO Test that the thing passed in is an Item

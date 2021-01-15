@@ -1,3 +1,4 @@
+require("prototypes.game-settings")
 
 require("prototypes.emc-fluid")
 require("prototypes.emc-consumer")
@@ -15,6 +16,8 @@ require("prototypes.klein-star")
 require("prototypes.red-matter-reactor")
 
 require("prototypes.technology")
+
+
 
 data:extend({
     {
