@@ -5,5 +5,5 @@
 	"author": "Zombieland4942",	
 	"factorio_version": "1.1",
 	"description": "Provides machines, items and fluids to bring EMC/Matter from Minecraft/Krastorio2 into Factorio.",
-	"dependencies": [ "? zombiesextended-core" ]
+	"dependencies": [ "? zombiesextended-core", "?deadlock-beltboxes-loaders" ]
 }

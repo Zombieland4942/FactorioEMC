@@ -76,6 +76,6 @@ FactorioEMC.addEMCItem({ order = "k", name = "klein-star-drei",  emcAmmount = 20
 FactorioEMC.addEMCItem({ order = "l", name = "klein-star-vier",  emcAmmount = 40000, scale = 0.48, count = 1 })
 
 if mods["zombiesextended-core"] then        
-    FactorioEMC.addEMCItem({  order = "g-2", name = "gold-ore",    emcAmmount = 10 })
+    FactorioEMC.addEMCItem({  order = "g-2", name = "gold-ore",         emcAmmount = 10 })
     FactorioEMC.addEMCItem({  order = "h-2", name = "vibranium-ore",    emcAmmount = 15 })
 end
